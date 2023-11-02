@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+
+
+<h1>Using list </h1>
+
+<br>
+<div th:each="student : ${obj}" >
+
+<h3 th:text="*{student.roll}"  >Roll</h3>
+<h3 th:text="*{student.name}"  >name</h3>
+<h3 th:text="*{student.address}"  >address</h3>
+<div>
+</body>
+</html>
